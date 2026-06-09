@@ -53,24 +53,4 @@ python app.py
 
 
 ---
- 📊 Dataset Used
 
-This project uses movie metadata datasets for building the recommendation system:
-
-- 🎥 TMDB 5000 Movies Dataset  
-  https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
-
- 
- 📊 ML Model Details
-Algorithm: Content-Based Filtering
-Technique: Cosine Similarity
-Dataset: Movie metadata
-Optimization: Precomputed similarity matrix
-
- 🚀 Future Improvements
-
-🔥 Collaborative filtering
-👤 User login system
-⚡ Faster API caching
-📱 Mobile optimization
-🌐 Deploy with custom domain
