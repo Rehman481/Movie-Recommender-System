@@ -2,13 +2,15 @@ from flask import Flask, render_template, request
 import pickle
 import requests
 import numpy as np
+import os
+
 
 app = Flask(__name__)
 
 movies = pickle.load(open("movies.pkl", "rb"))
 similarity = np.load("similarity.npy", mmap_mode="r")
 
-TMDB_API_KEY = "0f5403b4436ffea2af94735d16e97542"
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 
 poster_cache = {}
 recommend_cache = {}
