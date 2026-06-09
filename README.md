@@ -1,5 +1,4 @@
-# Movie-Recommender-System
-A Flask-based Movie Recommendation System that suggests similar movies using machine learning techniques such as cosine similarity. The system uses a precomputed similarity matrix and TMDB API integration to display movie posters, ratings, release dates, and descriptions in a clean web interface.
+
 # 🎬 Movie Recommender System
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -8,24 +7,12 @@ A Flask-based Movie Recommendation System that suggests similar movies using mac
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
----
-
-## 📸 Project Preview
-
-### 🏠 Home Page
-![Home](https://via.placeholder.com/900x400?text=Home+Page)
-
-### 🎯 Recommendations
-![Results](https://via.placeholder.com/900x400?text=Movie+Recommendations)
-
----
 
 ## 📌 About Project
 
 This is a **Machine Learning based Movie Recommendation System** built using **Flask**.  
 It recommends movies based on similarity scores and fetches posters using **TMDB API**.
 
----
 
 ## ✨ Features
 
@@ -56,27 +43,34 @@ User selects a movie → System calculates similarity → Top 5 similar movies �
 
 ---
 
-## 📂 Project Structure
-
-Movie-Recommender-System/
-│
-├── app.py
-├── movies.pkl
-├── similarity.npy
-├── requirements.txt
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   └── style.css
-
----
-
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/movie-recommender.git
-cd movie-recommender
+git clone https://github.com/Rehman481/Movie-Recommender-System.git
+cd Movie-Recommender-System
 pip install -r requirements.txt
 python app.py
+
+
+---
+## 📊 Dataset Used
+
+This project uses movie metadata datasets for building the recommendation system:
+
+- 🎥 TMDB 5000 Movies Dataset  
+  https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+ 
+## 📊 ML Model Details
+Algorithm: Content-Based Filtering
+Technique: Cosine Similarity
+Dataset: Movie metadata
+Optimization: Precomputed similarity matrix
+
+## 🚀 Future Improvements
+
+🔥 Collaborative filtering
+👤 User login system
+⚡ Faster API caching
+📱 Mobile optimization
+🌐 Deploy with custom domain
