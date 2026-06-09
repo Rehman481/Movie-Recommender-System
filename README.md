@@ -53,7 +53,7 @@ python app.py
 
 
 ---
-## 📊 Dataset Used
+ 📊 Dataset Used
 
 This project uses movie metadata datasets for building the recommendation system:
 
@@ -61,13 +61,13 @@ This project uses movie metadata datasets for building the recommendation system
   https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
  
-## 📊 ML Model Details
+ 📊 ML Model Details
 Algorithm: Content-Based Filtering
 Technique: Cosine Similarity
 Dataset: Movie metadata
 Optimization: Precomputed similarity matrix
 
-## 🚀 Future Improvements
+ 🚀 Future Improvements
 
 🔥 Collaborative filtering
 👤 User login system
